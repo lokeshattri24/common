@@ -9,7 +9,7 @@ const Login = () => {
 
     useEffect(() => {
         if (localStorage.getItem('user-login')) {
-            navigate("/services");
+            navigate("/projects");
         } else navigate("/login")
     }, [navigate])
 
@@ -32,7 +32,7 @@ const Login = () => {
         } else {
             // setLoading(true)
             localStorage.setItem("user-login", JSON.stringify(data));
-            navigate("/services");
+            navigate("/projects");
         }
     }
 

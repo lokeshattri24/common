@@ -35,7 +35,7 @@
     
   
   .navbar li {
-    padding: 0 0.5rem;
+    padding: 0 0.3rem;
     color: white !important;
     
   }
@@ -47,11 +47,6 @@
   
   }
   
-  .menu_active {
-    font-weight: bold;
-    border-bottom: 1rem solid green;
-    color: green !important;
-  }
   
   .navbar li a:hover {
     color: blue !important;
